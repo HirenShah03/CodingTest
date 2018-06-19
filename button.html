@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <button id="btn" onclick="addClickHandler(this)">Appear/Disappear Button</button>
+    <script>
+        var delayInMilliseconds = 1000; //1 second
+
+        function addClickHandler(button) {
+            button.style.visibility = "hidden";
+            ////hide button
+            setTimeout(function () {
+                button.style.visibility = "visible";
+                ///make it visible
+            }, delayInMilliseconds);
+
+        }
+
+    </script>
+</body>
+
+</html>

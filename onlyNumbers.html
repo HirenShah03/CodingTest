@@ -1,0 +1,25 @@
+<html>
+
+<head>
+        <script>
+                var a = [1, 'a', 'b', 2];
+        
+                function onlyNumbers(a) {
+                    for (var i = a.length - 1; i >= 0; i--) {
+                        if (isNaN(a[i])) {
+                            a.splice(i, 1);
+                        }
+                        console.log(a);
+                    }
+                }
+                onlyNumbers(a);
+        
+            </script>
+        
+</head>
+
+<body>
+
+</body>
+
+</html>
